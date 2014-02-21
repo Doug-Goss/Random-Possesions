@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7A727891891E0FE00CF6888 /* BNRitem.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A727881891E0FE00CF6888 /* BNRitem.m */; };
 		A7E874531891DE4E00F7257A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E874521891DE4E00F7257A /* Foundation.framework */; };
 		A7E874561891DE4E00F7257A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E874551891DE4E00F7257A /* main.m */; };
 		A7E8745A1891DE4E00F7257A /* RandomPossessions.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7E874591891DE4E00F7257A /* RandomPossessions.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A7A727871891E0FE00CF6888 /* BNRitem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRitem.h; sourceTree = "<group>"; };
+		A7A727881891E0FE00CF6888 /* BNRitem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRitem.m; sourceTree = "<group>"; };
 		A7E8744F1891DE4E00F7257A /* RandomPossessions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RandomPossessions; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7E874521891DE4E00F7257A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A7E874551891DE4E00F7257A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				A7E874551891DE4E00F7257A /* main.m */,
+				A7A727871891E0FE00CF6888 /* BNRitem.h */,
+				A7A727881891E0FE00CF6888 /* BNRitem.m */,
 				A7E874591891DE4E00F7257A /* RandomPossessions.1 */,
 				A7E874571891DE4E00F7257A /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7E874561891DE4E00F7257A /* main.m in Sources */,
+				A7A727891891E0FE00CF6888 /* BNRitem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +257,7 @@
 				A7E8745F1891DE4E00F7257A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
